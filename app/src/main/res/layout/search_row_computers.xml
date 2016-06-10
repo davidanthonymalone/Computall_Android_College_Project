@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/row_ram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/defaultRam"
+        android:layout_alignTop="@+id/textView7"
+        android:layout_alignStart="@+id/model_row" />
+
+    <TextView
+        android:id="@+id/row_storage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/defaultStorage"
+        android:layout_below="@+id/model_row"
+        android:layout_alignStart="@+id/model_row" />
+
+    <TextView
+        android:id="@+id/cpu_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/defaultCPU"
+        android:layout_below="@+id/row_ram"
+        android:layout_alignStart="@+id/row_ram" />
+
+    <TextView
+        android:id="@+id/screen_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/defaultScreen"
+        android:layout_below="@+id/row_storage"
+        android:layout_alignStart="@+id/row_storage" />
+
+    <TextView
+        android:id="@+id/model_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/defaultScreen"
+        android:layout_below="@+id/row_make"
+        android:layout_alignStart="@+id/row_price" />
+
+    <TextView
+        android:id="@+id/row_make"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/defaultMake"
+        android:layout_marginRight="1dp"
+        android:layout_alignTop="@+id/textView6"
+        android:layout_alignStart="@+id/model_row" />
+
+    <TextView
+        android:id="@+id/row_tower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/defaulttower"
+        android:layout_marginRight="1dp"
+        android:layout_below="@+id/cpu_row"
+        android:layout_alignStart="@+id/cpu_row" />
+
+
+    <TextView
+        android:id="@+id/row_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/defaultMake"
+
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="0dp"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_toEndOf="@+id/textView8" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="cpu"
+        android:id="@+id/textView3"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView7"
+        android:layout_alignStart="@+id/textView7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="screen"
+        android:id="@+id/textView4"
+        android:textStyle="bold"
+
+        android:layout_below="@+id/textView12"
+        android:layout_alignStart="@+id/textView12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="model"
+        android:id="@+id/textView5"
+        android:textStyle="bold"
+
+        android:layout_below="@+id/textView6"
+        android:layout_alignStart="@+id/textView6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="make"
+        android:id="@+id/textView6"
+        android:textStyle="bold"
+
+        android:layout_below="@+id/textView8"
+        android:layout_alignStart="@+id/textView8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="price"
+        android:id="@+id/textView8"
+        android:textStyle="bold"
+
+        android:layout_below="@+id/textView11"
+        android:layout_marginEnd="48dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="TowerType"
+        android:id="@+id/textView9"
+        android:textStyle="bold"
+
+        android:layout_below="@+id/textView3"
+        android:layout_alignStart="@+id/textView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:hint="CoolingSystem"
+        android:id="@+id/textView10"
+        android:textStyle="bold"
+
+        android:layout_below="@+id/textView9"
+        android:layout_alignStart="@+id/textView9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="ram"
+        android:id="@+id/textView7"
+        android:textStyle="bold"
+
+        android:layout_below="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Desktop "
+        android:id="@+id/textView11"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Storage"
+        android:textStyle="bold"
+
+        android:id="@+id/textView12"
+        android:layout_below="@+id/textView5"
+        android:layout_alignStart="@+id/textView5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/defaultcooling"
+        android:id="@+id/row_cooling"
+        android:layout_below="@+id/row_tower"
+        android:layout_alignStart="@+id/row_tower" />
+
+
+
+
+</RelativeLayout>

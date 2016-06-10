@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/AppInfoHeading"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="About Us" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/AppInfoIcon"
+        android:background="@drawable/launcher"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/AppInfoHeading"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:id="@+id/AppVersion"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="V2.00" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/AppCopyright"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="ComputAll -- © David Malone &amp; Dylan Sage" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="300dp"
+        android:textSize="7pt"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+
+        android:id="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rCS"
+        android:layout_below="@+id/AppInfoHeading" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="ComputAll: Employee Application"
+        android:id="@+id/textView14"
+        android:layout_below="@+id/AppInfoIcon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The purpose of this application is for employees of ComputAll to be ables to add, view, remove, update and search for Desktop items within the ComputAll database system
+        \n All employees must login to the system to be able to modify data, new employees will be able to register to the system."
+        android:id="@+id/textView22"
+        android:layout_below="@+id/textView14"
+        android:layout_alignEnd="@+id/textView14"
+        android:layout_alignStart="@+id/textView14" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="About the Company"
+        android:id="@+id/textView23"
+        android:layout_below="@+id/textView22"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ComputAll was set up by David Malone and Dylan Sage in 2016, we currently focus on Desktops to sell.
+        \n We are currently based in Waterford City, Ireland."
+        android:id="@+id/textView24"
+        android:layout_alignEnd="@+id/textView22"
+        android:layout_below="@+id/textView23"
+        android:layout_alignStart="@+id/textView22" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Our Site"
+        android:id="@+id/webbutt"
+        android:onClick="chooseWebPressed"
+        android:layout_below="@+id/textView24"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

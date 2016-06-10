@@ -1,0 +1,50 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.AddComputer">
+
+    <item
+        android:id="@+id/addc"
+        android:orderInCategory="102"
+        android:title="@string/addcomputer"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/pcDatabase"
+        android:orderInCategory="101"
+        android:title="@string/computerDatabase"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/searchmenu"
+        android:orderInCategory="103"
+        android:title="@string/searchmenu"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/home"
+        android:orderInCategory="100"
+        android:title="@string/Home"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="104"
+        android:title="@string/about"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menuReset"
+        android:orderInCategory="105"
+        app:showAsAction="never"
+        android:title="@string/reset"
+        android:onClick="reset"/>
+
+    <item
+        android:id="@+id/menuLogout"
+        android:title="@string/Logout"
+        android:orderInCategory="106"
+        android:onClick="logout"/>
+
+</menu>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+
+        >
+
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchView"
+        android:hint="Search Make..."
+        android:singleLine="true"
+
+        android:layout_alignBottom="@+id/searchMakeButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/modelText" />
+
+    <Button
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:text="Search Make"
+        android:id="@+id/searchMakeButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="searchMakeButtonPressed"
+        android:layout_marginTop="85dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/modelText"
+        android:singleLine="true"
+
+        android:hint="Search Model..."
+        android:layout_above="@+id/searchCpuButton"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/searchModelButton" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText6"
+        android:singleLine="true"
+
+        android:layout_above="@+id/towerbutton"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/editText7"
+        android:hint="Search CPU..." />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText7"
+        android:singleLine="true"
+
+        android:layout_alignTop="@+id/towerbutton"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/button8"
+        android:hint="Search Tower Type..." />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText8"
+        android:singleLine="true"
+
+        android:hint="Search Cooling System..."
+        android:layout_alignTop="@+id/button8"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/button8" />
+
+    <Button
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:text="Search Model"
+
+        android:id="@+id/searchModelButton"
+        android:onClick="searchModelButtonPressed"
+        android:layout_below="@+id/searchMakeButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search CPU"
+        android:id="@+id/searchCpuButton"
+        android:onClick="searchCPUButtonPressed"
+        android:layout_below="@+id/searchModelButton"
+        android:layout_alignStart="@+id/searchModelButton"
+        android:layout_alignEnd="@+id/searchModelButton"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:text="Search Tower Type"
+        android:id="@+id/towerbutton"
+
+        android:onClick="searchTowerButtonPressed"
+        android:layout_below="@+id/searchCpuButton"
+        android:layout_alignStart="@+id/searchCpuButton"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search Cooling System"
+        android:id="@+id/button8"
+        android:onClick="searchCoolButtonPressed"
+        android:layout_below="@+id/towerbutton"
+        android:layout_alignStart="@+id/towerbutton"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50px"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Search Database"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText9"
+        android:singleLine="true"
+
+        android:hint="Search All..."
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/button9"
+        android:layout_below="@+id/editText8"
+        android:layout_alignBottom="@+id/button9" />
+
+    <Button
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:text="Search All"
+        android:id="@+id/button9"
+        android:onClick="searchDBButtonPressed"
+        android:layout_below="@+id/button8"
+        android:layout_toEndOf="@+id/editText8"
+        android:layout_marginTop="30dp" />
+
+
+</RelativeLayout>

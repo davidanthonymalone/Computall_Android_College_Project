@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".choose.Choose"
+    tools:showIn="@layout/activity_choose_screen"
+    android:minHeight="1200px">
+
+
+    <TextView
+        android:id="@+id/databaseList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/WelcometoComputall"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-5dp" />
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+
+        android:id="@+id/viewStock"
+        android:onClick="chooseDBPressed"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/imglistbutt2"
+        android:layout_below="@+id/databaseList"
+        android:layout_alignStart="@+id/pickPC"
+        android:layout_alignEnd="@+id/pickPC" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/pickPC"
+
+        android:background="@drawable/imgaddbutt2"
+        android:onClick="choosePcPressed"
+        android:layout_below="@+id/delDB"
+        android:layout_alignStart="@+id/openSearch"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="View/Modify Computer DB"
+        android:id="@+id/delDB"
+        android:layout_below="@+id/viewStock"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Add a Computer"
+        android:id="@+id/AddComp"
+        android:layout_below="@+id/pickPC"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/openSearch"
+        android:onClick="chooseSearchPressed"
+        android:background="@drawable/searchicon"
+        android:layout_below="@+id/AddComp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Search for Computer"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/openSearch"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/openAbout"
+        android:background="@drawable/imgaboutbutt2"
+        android:onClick="chooseAboutPressed"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="About Us"
+        android:id="@+id/textView13"
+        android:layout_below="@+id/openAbout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/name"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/textView20" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Current User: "
+        android:id="@+id/textView20"
+        android:layout_alignBottom="@+id/name"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="105dp" />
+
+</RelativeLayout>

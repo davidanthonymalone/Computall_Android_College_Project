@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">ComputAll</string>
+    <string name="view_database">Settings</string>
+    <string name="ramText">RAM</string>
+    <string name="cpuText">CPU</string>
+    <string name="screenText">Screensize</string>
+    <string name="storageText">STORAGE</string>
+    <string name="makeText">MAKE</string>
+    <string name="modelText">MODEL</string>
+    <string name="Logout">Logout</string>
+
+    <string name="addButton">ADD</string>
+    <string name="priceText">PRICE</string>
+    <string name="reset">Reset Database</string>
+    <string name="priceText1">PRICE</string>
+    <string name="searchmenu">Search Database</string>
+    <string name="addcomputer">Add Computer</string>
+    <string name="updatecomputer">Update Computer</string>
+    <string name="database">Database</string>
+    <string name="reportTitle">reportitle</string>
+    <string name="ram">Ram</string>
+    <string name="cpu">cpu</string>
+    <string name="SearchComputer">Search Computer</string>
+    <string name="storage">storage</string>
+    <string name="defaultScreen">N/A</string>
+    <string name="defaultRam">N/A</string>
+    <string name="defaultPrice">N/A</string>
+    <string name="defaultStorage">N/A</string>
+    <string name="defaultMake">N/A</string>
+    <string name="defaultCPU">N/A</string>
+    <string name="defaulttower">N/A</string>
+    <string name="defaultcooling">N/A</string>
+    <string name="WelcometoComputall">Computall Database</string>
+
+    <string name="ListComputers">List OF Computers In Stock</string>
+    <string name="defaultModel">N/A</string>
+    <string name="defaultId">N/A</string>
+    <string name="addphone">N/A</string>
+    <string name="addphones">addphones/</string>
+
+    <string name="computerDatabase">Computer Database</string>
+    <string name="phoneDatabase">phoneDatabase</string>
+    <string name="DeleteDatabase">DeleteDatabase</string>
+    <string name="DELETE">DELETE</string>
+    <string name="Home">Home</string>
+    <string name="Processor">Processor</string>
+    <string name="Make">Make</string>
+    <string name="Model">Model</string>
+    <string name="upmakeText">Make</string>
+    <string name="about">About Us</string>
+    <string name="search_label">Search</string>
+    <string name="search_hint">Search items from ListView</string>
+
+
+</resources>

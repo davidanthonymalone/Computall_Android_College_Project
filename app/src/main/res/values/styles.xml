@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- declaring styles here -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerGoesOrange</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+
+
+    <!-- To change colour of my spiner text-->
+    <style name="SpinnerGoesOrange" parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:textColor">@color/tool</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+
+
+    <!--changes action bar -->
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:icon">@drawable/icon</item>
+        <item name="background">@color/colorPrimary</item>
+    </style>
+            <color name="background">@color/colorPrimary</color>
+             <style name="AppTheme.NoActionBar">
+            <item name="windowActionBar">false</item>
+            <item name="windowNoTitle">true</item>
+    </style>
+
+
+
+</resources>
